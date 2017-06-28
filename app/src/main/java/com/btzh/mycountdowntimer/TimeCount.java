@@ -6,7 +6,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 /**
- * Created by Lenovo on 2017/6/26.
+ * Created by wyb on 2017/6/26.
  */
 
 public class TimeCount extends CountDownTimer {

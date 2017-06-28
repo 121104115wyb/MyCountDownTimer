@@ -74,6 +74,7 @@ public class Main4Activity extends AppCompatActivity implements View.OnClickList
                 setCheckBoxStatus();
                 Intent skip = new Intent(Main4Activity.this,Main5Activity.class);
                 startActivity(skip);
+                finish();
             }else {
                 Toast.makeText(Main4Activity.this,"用户名或密码输入错误！",Toast.LENGTH_SHORT).show();
             }
