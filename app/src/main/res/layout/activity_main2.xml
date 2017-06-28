@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.btzh.mycountdowntimer.Main2Activity">
+    <EditText
+        android:hint="请输入内容进行保存！"
+        android:id="@+id/file_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="onClicklistenter"
+        android:id="@+id/file_data_save"
+        android:text="保存"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="onClicklistenter"
+        android:id="@+id/file_data_clear"
+        android:text="清空输入框！"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="onClicklistenter"
+        android:id="@+id/file_data_get"
+        android:text="获取保存内容！"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
