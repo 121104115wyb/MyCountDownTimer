@@ -9,37 +9,40 @@
     <Button
         android:text="倒计时"
         android:id="@+id/buttonPanel_tes"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="8dp"
-        android:layout_marginStart="8dp" />
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="17dp"
+        app:layout_constraintTop_toBottomOf="@+id/button_sqlite"
+        android:layout_marginRight="8dp" />
     <Button
         android:text="跳转到sharepreference测试"
         android:id="@+id/buttonPanel_tesw"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="38dp"
+        android:layout_marginTop="15dp"
         app:layout_constraintTop_toBottomOf="@+id/buttonPanel_tes"
-        app:layout_constraintHorizontal_bias="0.513" />
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="跳转到file测试"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="15dp"
         app:layout_constraintTop_toBottomOf="@+id/buttonPanel_tesw"
-        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintHorizontal_bias="0.0"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp" />
 
@@ -56,6 +59,29 @@
         android:layout_marginRight="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/button_sqlite"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="跳转到SQLite"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/button_litepal" />
+
+    <Button
+        android:id="@+id/button_litepal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="跳转到litepal测试"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>
